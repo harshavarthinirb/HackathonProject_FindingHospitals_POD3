@@ -17,5 +17,5 @@ Feature: Finding Hospitals on Practo website
   @Smoke @FormValidation
   Scenario: Verify submit button is disabled when Corporate Wellness form has invalid phone number
     When the user navigates to Corporate Wellness page
-    And the user fills the form with name "Gopal" organization "Cognizant" phone "8970657" email "gopal@cognizant.com"
+    And the user fills the form with name "Hemanth" organization "Cognizant" phone "2495555" email "hemanth@cognizant.com"
     Then the submit button should be disabled
