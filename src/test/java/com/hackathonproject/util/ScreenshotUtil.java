@@ -27,7 +27,7 @@ public class ScreenshotUtil {
                 ? com.hackathonproject.runner.TestRunner.getBrowserName()
                 : "unknown";
 
-        String targetPath = System.getProperty("user.dir") + "\\target\\screenshots\\"
+        String targetPath = System.getProperty("user.dir") + "\\test-output\\screenshots\\"
                 + browser + "_" + screenshotName + "_" + timestamp + ".png";
 
         File destinationScreenshotPath = new File(targetPath);
